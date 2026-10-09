@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-POSITIVE = {"good", "great", "love", "awesome", "happy","amazing"}
+POSITIVE = {"good", "great", "love", "awesome", "happy","amazing","excellent"}
 NEGATIVE = {"bad", "terrible", "hate", "awful", "sad"}
 
 @app.get("/health")
